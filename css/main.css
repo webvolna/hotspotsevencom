@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffff;
+}
+.sign-in-up .left-inner-addon {position: relative;}
+.sign-in-up .left-inner-addon input {padding-left: 30px;}
+.sign-in-up .left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.sign-in-up .right-inner-addon {position: relative;}
+.sign-in-up .right-inner-addon input {padding-right: 30px;}
+.sign-in-up .right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 17px 12px;
+    pointer-events: none;
+}
+.vertical-center {
+    min-height: 94%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 94vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+#root-block{background-color: transparent;}
+.margin-top{
+    margin-top: 20px;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.small-font{
+    font-size: small !important;
+}
+.fuck-you-davidchuck{
+    color: #29166f;
+    border-color: #1e0c61;
+     -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.fuck-you-davidchuck:hover{
+    -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+    color: #fff;
+    text-shadow: 1px 1px #504f4f;
+    border-color: #ffffff;
+    background: #009eb9;
+    background: -moz-linear-gradient(-45deg, #009eb9 0%, #8ebb21 100%);
+    background: -webkit-linear-gradient(-45deg, #009eb9 0%,#8ebb21 100%);
+    background: linear-gradient(135deg, #009eb9 0%,#8ebb21 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009eb9', endColorstr='#8ebb21',GradientType=1 );
+}
+.big_text{
+    font-size: 16px;
+}
+.nav-pills>li.active>a{
+    color: #ef8321 !important;
+    background-color: #fff !important;
+}
+@media(min-width:1200px){/* Large */
+    .vertical-center{
+        min-height: 92%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 92vh; /* These two lines are counted as one :-)       */
+    }
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+#user_agreement{
+    height: 400px;
+    overflow-y: auto;
+}
+.big_and_white{
+    width:100%;
+    color:white;
+}
